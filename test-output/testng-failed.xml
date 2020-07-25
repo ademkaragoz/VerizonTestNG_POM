@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.qa.verizon.tests.ShopCardPageTest">
+        <methods>
+          <include name="ShoppingCardPageTest"/>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+          <include name="verifyShoppingCardPageTitle"/>
+          <include name="verifyCustomizeYourDeviceTitle"/>
+        </methods>
+      </class> <!-- com.qa.verizon.tests.ShopCardPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
